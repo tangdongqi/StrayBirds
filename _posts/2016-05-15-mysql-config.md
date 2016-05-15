@@ -1,6 +1,6 @@
 ---
 layout: post
-title: MYSQL启动脚本
+title: MYSQL配置文件
 category: Mysql
 comments: true
 ---
