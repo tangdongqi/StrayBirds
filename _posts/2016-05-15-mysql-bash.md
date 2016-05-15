@@ -4,7 +4,7 @@ title: MYSQL启动脚本
 category: Mysql
 comments: true
 ---
-```j
+```
 [root@localhost 3306]# cat    mysql
 #!/bin/sh
 ################################################
@@ -67,6 +67,6 @@ restart)
 *)
     printf "Usage: /data/${port}/mysql {start|stop|restart}\n"
 esac
-```j
+```
 重启数据库的时候，不要用restart
 先stop，然后start
