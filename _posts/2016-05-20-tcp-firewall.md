@@ -28,3 +28,6 @@ STATEFUL
 有状态防火墙可以从头到尾观看交通流。它们都知道的通信路径，并且可以实现各种IP安全（IPsec）的功能，例如隧道和加密。在技​​术方面，这意味着状态防火墙能告诉什么阶段TCP连接是(open, open sent, synchronized, synchronization acknowledge or established)，它可以告诉如果MTU发生了变化，包是否有碎片等
 
 也不是真的优越，有两种类型的防火墙很好的理由。无状态防火墙通常更快，更重的交通负荷下有更好的表现。有状态防火墙查明非法结下通信更好。
+````
+
+http://www.inetdaemon.com/tutorials/information_security/devices/firewalls/stateful_vs_stateless_firewalls.shtml
